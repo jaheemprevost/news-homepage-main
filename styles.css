@@ -11,6 +11,7 @@
 
 body {
   font-size: 1.5rem;
+  position: relative;
 }
 
 .header {
@@ -25,8 +26,45 @@ body {
   height: auto;
 }
 
+.overlay {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  inset: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .nav-bar {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: var(--off-white);
+  width: 65%;
+}
+
+.open-menu-btn {
+  cursor: pointer;
+}
+.close-menu-btn {
+  align-self: flex-end;
+  cursor: pointer;
+  margin-bottom: 4.25em;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+  padding: 0;
+  list-style: none;
+}
+
+
+.nav-link {
+  color: var(--very-dark-blue);
+  font-size: 2rem;
+  text-decoration: none;
 }
 
 .main {
