@@ -14,46 +14,88 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <header class="header">
+    <img src="./assets/images/logo.svg" alt="logo" class="logo">
+    
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="main-article">
+      <img class="main-image" src="./assets/images/image-web-3-mobile.jpg" alt="Main article image">
 
-  The Bright Future of Web 3.0?
+      <h1 class="main-heading">The Bright Future of Web 3.0?</h1> 
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+      <p class="main-lead">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+      But is it really fulfilling its promise?</p>
 
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
+      <a class="read-more" href="#">Read more</a>
+    </section>
   
-  <div class="attribution">
+    <aside class="new-section">
+      <h2>New</h2> 
+
+      <section class="articles">
+        <h3 class="new-heading">Hydrogen VS Electric Cars</h3>
+        <p class="new-lead">Will hydrogen-fueled cars ever catch up to EVs?</p>
+
+        <h3 class="new-heading">The Downsides of AI Artistry</h3>
+        <p class="new-lead">What are the possible adverse effects of on-demand AI image generation?</p>
+
+        <h3 class="new-heading">Is VC Funding Drying Up?</h3>
+        <p class="new-lead">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </section>
+    </aside>
+    
+    <section class="top-articles">
+      <div class="top-article">
+        <img src="./assets//images/image-retro-pcs.jpg" class="article-image" alt="Collection of Retro-looking pcs.">
+        
+        <div class="article-content">
+          <p class="article-rank">01</p>
+
+          <h3 class="article-title">Reviving Retro PCs</h3>
+
+          <p class="article-lead">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+     
+      <div class="top-article">
+        <img src="./assets/images/image-top-laptops.jpg" class="article-image" alt="Collection of laptops.">
+
+        <div class="article-content">
+          <p class="article-rank">02</p>
+
+          <h3 class="article-title">Top 10 Laptops of 2022</h3>
+
+          <p class="article-lead">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+     
+      <div class="top-article">
+        <img src="./assets/images/image-gaming-growth.jpg" class="Game controller falling into the hand of the player.">
+
+        <div class="article-content">
+          <p class="article-rank">03</p>
+          
+          <h3 class="article-title">The Growth of Gaming</h3>
+
+          <p class="article-lead">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div>-->
   <script src="./script.js"></script>
 </body>
 </html>
