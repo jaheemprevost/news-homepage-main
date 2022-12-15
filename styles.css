@@ -13,6 +13,136 @@ body {
   font-size: 1.5rem;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 1em;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.nav-bar {
+  display: none;
+}
+
+.main {
+  padding: 0em 1em 5em;
+}
+/* Main Article Styles */
+.main-article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+}
+
+.main-heading {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.main-lead {
+  color: var(--dark-grayish-blue);
+}
+
+.read-more {
+  align-self: flex-start;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  color: var(--off-white);
+  background-color: var(--soft-red);
+}
+
+.read-more:focus, .read-more:hover {
+  background-color: var(--very-dark-blue);
+}
+
+/* Side Articles Styles */
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+  margin: 4em 0 3em;
+  padding: 1em 1.25em 1.5em;
+  background-color: var(--very-dark-blue);
+}
+
+.side-bar h2 {
+  color: var(--soft-orange);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.side-articles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+}
+
+.side-article {
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--grayish-blue);
+}
+
+.side-article:last-child {
+  padding-bottom: 0;
+  border: none;
+}
+
+.side-heading {
+  color: var(--off-white);
+  font-size: 2rem;
+  margin-bottom: 0.25em;
+}
+
+.side-lead {
+  color: var(--grayish-blue);
+  font-size: 1.6rem;
+}
+/* Ranked Articles Styles */
+
+.top-articles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+}
+
+.top-article {
+  display: flex;
+  column-gap: 2em;
+}
+
+.article-image {
+  width: 100px;
+  height: auto;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-rank {
+  color: var(--grayish-blue);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.article-lead {
+  color: var(--dark-grayish-blue);  
+}
+
+/* Attribution Styles */
 .attribution { 
   font-size: 11px; text-align: center; 
 }
