@@ -14,6 +14,7 @@ body {
   position: relative;
 }
 
+/* Header Styles */
 .header {
   display: flex;
   justify-content: space-between;
@@ -35,6 +36,11 @@ body {
   min-height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.hidden {
+  display: none;
+}
+
 .nav-bar {
   display: flex;
   flex-direction: column;
